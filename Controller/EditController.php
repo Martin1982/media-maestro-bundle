@@ -15,6 +15,6 @@ class EditController extends AbstractController
 {
     public function edit(): Response
     {
-
+        return new Response('Edit');
     }
 }

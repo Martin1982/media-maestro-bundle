@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="media_maestro_browse" path="/browse">
+        <default key="_controller">Martin1982\MediaMaestroBundle\Controller\BrowseController:browse</default>
+    </route>
+
+    <route id="media_maestro_create" path="/create">
+        <default key="_controller">Martin1982\MediaMaestroBundle\Controller\CreateController:create</default>
+    </route>
+
+    <route id="media_maestro_delete" path="/delete">
+        <default key="_controller">Martin1982\MediaMaestroBundle\Controller\DeleteController:delete</default>
+    </route>
+
+    <route id="media_maestro_detail" path="/detail">
+        <default key="_controller">Martin1982\MediaMaestroBundle\Controller\DetailController:detail</default>
+    </route>
+
+    <route id="media_maestro_edit" path="/edit">
+        <default key="_controller">Martin1982\MediaMaestroBundle\Controller\EditController:edit</default>
+    </route>
+
+    <route id="media_maestro_publish" path="/publish">
+        <default key="_controller">Martin1982\MediaMaestroBundle\Controller\PublishController:publish</default>
+    </route>
+
+    <route id="media_maestro_upload" path="/upload">
+        <default key="_controller">Martin1982\MediaMaestroBundle\Controller\UploadController:upload</default>
+    </route>
+
+</routes>

@@ -15,5 +15,6 @@ class CreateController extends AbstractController
 {
     public function browse(): Response
     {
+        return new Response('Create');
     }
 }

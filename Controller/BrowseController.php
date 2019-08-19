@@ -15,5 +15,6 @@ class BrowseController extends AbstractController
 {
     public function browse(): Response
     {
+        return new Response('Browse');
     }
 }

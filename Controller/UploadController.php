@@ -15,5 +15,6 @@ class UploadController extends AbstractController
 {
     public function upload(): Response
     {
+        return new Response('Upload');
     }
 }

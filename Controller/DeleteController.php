@@ -15,5 +15,6 @@ class DeleteController extends AbstractController
 {
     public function delete(): Response
     {
+        return new Response('Delete');
     }
 }

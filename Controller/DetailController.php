@@ -15,6 +15,6 @@ class DetailController extends AbstractController
 {
     public function detail(): Response
     {
-
+        return new Response('Detail');
     }
 }

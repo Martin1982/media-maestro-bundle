@@ -15,5 +15,6 @@ class PublishController extends AbstractController
 {
     public function publish(): Response
     {
+        return new Response('Publish');
     }
 }
