@@ -5,10 +5,16 @@
  */
 namespace Martin1982\MediaMaestroBundle\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
+
 /**
  * Class DetailController
  */
-class DetailController
+class DetailController extends AbstractController
 {
+    public function detail(): Response
+    {
 
+    }
 }

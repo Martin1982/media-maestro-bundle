@@ -5,10 +5,15 @@
  */
 namespace Martin1982\MediaMaestroBundle\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
+
 /**
  * Class PublishController
  */
-class PublishController
+class PublishController extends AbstractController
 {
-
+    public function publish(): Response
+    {
+    }
 }

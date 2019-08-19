@@ -5,10 +5,15 @@
  */
 namespace Martin1982\MediaMaestroBundle\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
+
 /**
  * Class UploadController
  */
-class UploadController
+class UploadController extends AbstractController
 {
-
+    public function upload(): Response
+    {
+    }
 }
